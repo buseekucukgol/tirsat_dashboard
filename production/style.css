@@ -1,0 +1,52 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    width:100%; height:650px;
+    background-image: url(tirsat.png);
+    background-repeat : no-repeat; 
+    background-position:bottom center;
+}
+.adminLabel{
+    font-size: 30px;
+    color: rgb(41, 62, 83);
+}
+.girisEkrani{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+    padding-top: 20px ;
+    padding-bottom: 80px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    background-color:rgb(60, 90, 121);
+}
+.girisYazi{
+    color: white;
+    font-size: 15px;
+
+}
+#eposta{    
+    margin-top: 30px;
+    width: 80% ;
+    height: 25px;
+}
+#sifre{
+    margin-top: 30px;
+    width: 80% ;
+    height: 25px;
+}
+#giris{
+    margin-top:30px;
+    width: 30%;
+    height: 25px;
+    background-color:rgb(255, 238, 238);
+    border: 0;
+    color:rgb(60, 90, 121);
+}
